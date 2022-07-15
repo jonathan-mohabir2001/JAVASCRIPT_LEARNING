@@ -3,6 +3,9 @@
 This JS file will be a simple object creation practise for me to review what was learned on the 
 10th of JULY, 2022. 
 
+Literal notation, constructor notation and functional objects will be all 
+covered and practised within this file. 
+
 */
 
 // first objects will be created using literal notation.
@@ -87,4 +90,78 @@ section where their contents will be written to.
 
 The properties of the second object are accessed in order to write them to 
 the HTML file (DOM)
+*/
+
+/*
+The objects below will now focus on the creation of multiple objects of one type 
+
+Meaning, functions will now be used to make them. Instances of one type will 
+be created. 
+*/
+
+function fruitObject(name, colour, taste) {
+  this.name = name;
+  this.colour = colour;
+  this.taste = taste;
+}
+var fruit1 = new fruitObject('Strawberry', 'Red', 'Sweet');
+var fruit2 = new fruitObject('Orange', 'Orange', 'Sweet');
+var fruit3 = new fruitObject('Kiwi', 'Green/Brown', 'Sour');
+
+/*
+Using a functional object, fruit object is my example 
+
+3 types of fruits are represented with their 3 properties. They are all 
+instances of fruitObject. 
+
+Below will now be statments to write them into the DOM. 
+*/
+
+var firstFruitName = document.getElementById('fruit1-name');
+
+firstFruitName.textContent = fruit1.name;
+
+var firstFruitColour = document.getElementById('fruit1-colour');
+firstFruitColour.textContent = fruit1.colour;
+
+var firstFruitTaste = document.getElementById('fruit1-taste');
+
+firstFruitTaste.textContent = fruit1.taste;
+
+var secondFruitName = document.getElementById('fruit2-name');
+secondFruitName.textContent = fruit2.name;
+
+var secondFruitColour = document.getElementById('fruit2-colour');
+secondFruitColour.textContent = fruit2.colour;
+
+var secondFruitTaste = document.getElementById('fruit2-taste');
+secondFruitTaste.textContent = fruit2.taste;
+
+var thirdFruitName = document.getElementById('fruit3-name');
+thirdFruitName.textContent = fruit3.name;
+
+var thirdFruitColour = document.getElementById('fruit3-colour');
+thirdFruitColour.textContent = fruit3.colour;
+
+var thirdFruitTaste = document.getElementById('fruit3-taste');
+
+thirdFruitTaste.textContent = fruit3.taste;
+
+/*
+
+This is the end of this JS file. 
+
+This file represents my understanding of how to: 
+
+Create objects in three ways of... 
+
+1. Literal notation 
+2. Constructor notation 
+3. Functional object ( to create instances of one type). 
+
+And... 
+
+How to access properties and methods using the dot notation and 
+how to write them into the DOM through the use of IDs given to 
+HTML elements. 
 */
