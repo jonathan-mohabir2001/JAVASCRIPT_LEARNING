@@ -27,3 +27,4 @@ element.innerHTML = msg;
 
 alert ('Your current page is located here:' + window.location); 
 
+console.log(msg); 
