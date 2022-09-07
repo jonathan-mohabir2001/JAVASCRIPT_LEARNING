@@ -1,8 +1,10 @@
-var number1, number2, number3;
+var number1, number2, number3, number4, number5;
 
 number1 = 01;
 number2 = 02; 
 number3 = 03;
+
+
 
 // the lines above create three variables with their names in one line .
 // values are then assigned to them of the number type.
