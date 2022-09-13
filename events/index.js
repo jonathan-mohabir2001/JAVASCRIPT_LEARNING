@@ -12,4 +12,5 @@ function checkCharacterCount(){
     nameElement.textContent = 'username must be bigger than this!'
   }
 
+  alert('HELOOO')
 }
