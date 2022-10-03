@@ -36,3 +36,17 @@ function processOutput (callback){
   callback(secondOutput)
 }
 processOutput(doSomeMath)
+
+
+function produceWord( word){
+  console.log(`Here is a random word: ${word}`)
+}
+// word function created and passed parameter. 
+function processWord(callback){
+  const random = "Cat"
+  callback(random)
+  // random variable assigned a word 
+  // callback passed the variable random. 
+}
+processWord(produceWord)
+// callback demonstrated by... calling process word function and then passing the produce word function to it. 
