@@ -1,4 +1,3 @@
-const { setUncaughtExceptionCaptureCallback } = require("process");
 
 /*
 This JS file will cover functional programming. 
@@ -12,7 +11,8 @@ var log = function(message){
 }; 
 // variable named log. 
 // assigned to a function with parameter of message. 
-log("Hello there, functional JS here")
+log("Hello there, functional JS here");
+
 // Using an arrow function to log some results. 
 const greeting = newMessage => {
   console.log(newMessage)

@@ -1,0 +1,11 @@
+{
+  "name": "imperativedeclarative",
+  "version": "1.0.0",
+  "description": "Practising and understanding concepts of imperative and declarative in JS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan M",
+  "license": "ISC"
+}
