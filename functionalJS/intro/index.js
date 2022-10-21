@@ -1,3 +1,5 @@
+const { setUncaughtExceptionCaptureCallback } = require("process");
+
 /*
 This JS file will cover functional programming. 
 JS functional programming 
@@ -31,3 +33,34 @@ const javascriptObject = {
 }
 
 javascriptObject.describe(); 
+
+// more pratise below. 
+var newGreeting = function (hello) {
+  console.log(hello)
+}
+newGreeting("Hi there, parameter given value. ")
+// normal variable assigned to function with hello parameter. 
+// newGreeting is then assigned a message in brackets. 
+
+const greetWorld  = hiThere => {
+  console.log(hiThere);
+}
+// greetWorld given hiThere parameter. 
+// inside the body of greetWorld, console logs, the hi there parameter. 
+greetWorld("Message from greet world."); 
+
+const personObject = {
+  saySomething:"Hello, this is a person.", 
+
+  speaking(saySomething){
+    console.log(saySomething)
+  }
+}
+personObject.speaking(personObject.saySomething)
+
+// in Javascript functions can also be sent to other functions like arguments.
+
+const insideFn = logger => {
+  logger = "Some message from this insideFn function"
+}; 
+insideFn(message => {console.log(message)})
