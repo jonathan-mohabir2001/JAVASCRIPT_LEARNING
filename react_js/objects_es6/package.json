@@ -1,0 +1,11 @@
+{
+  "name": "objects_es6",
+  "version": "1.0.0",
+  "description": "This javascript file contains code practise for working with Objects with functions assigned to them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan M",
+  "license": "ISC"
+}
