@@ -1,0 +1,16 @@
+{
+  "name": "spread_objects_review",
+  "version": "1.0.0",
+  "description": "Tying in the knowledge of JS-Objects for es6, and spread operator objects and arrays, rendering those out to the server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev":"nodemon index.js"
+  },
+  "author": "Jonathan Mohabir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
